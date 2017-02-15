@@ -74,7 +74,6 @@ h3 {
   text-decoration: none;
   background: #4aaaa5;
 }
-
 nav {
   float: right;
   margin-top: 25px;
@@ -102,8 +101,7 @@ footer {
   font-size: 12px;
   text-align: center;
   background: #666;
-  border-top: 8px solid #4aaaa5;
-  left: 0;
+  border-top: 8px solid #4aaaa5;  left: 0;
 }
 
 .sidebar {
@@ -136,8 +134,6 @@ h3,
 }
 
 
-/*main*/
-
 #main-container {
   padding-top: 130px;
 }
@@ -152,8 +148,6 @@ h3,
   border: 1px solid #ddd;
 }
 
-
-/*portfolio page*/
 
 .work {
   position: relative;
@@ -196,8 +190,6 @@ h3,
 }
 
 
-/*contact page*/
-
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -234,15 +226,4 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
-}
-
-@media screen and (max-width: 640px) {
- 
-  #masthead {
-    position: static;
-  }
-  .container {
-  max-width: 640px;
-  }
-  
 }
